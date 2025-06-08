@@ -53,6 +53,9 @@ import java.util.*;
 public class Main {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
+
+
+        int[] dp1 = new int[10001];
         int n = in.nextInt();
         int m = in.nextInt();
         int[] dp = new int[n+1];
